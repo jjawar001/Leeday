@@ -62,7 +62,8 @@ img {
     border: 6px solid white;
     border-radius: 10px;
     background-image: url("images/gift-cover.jpg");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #gift-img-happy:hover {

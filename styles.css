@@ -3,10 +3,16 @@ body {
     font-family: 'Happy Monkey', cursive;
     background: #a2d2ff;
     color: #ffffff;
+    font-size: 1rem;
 }
 
 h1, h2, h3, h4, p {
     text-shadow: 0 0 1px black;
+}
+
+img {
+    height: 100%;
+    /* overflow: cover; */
 }
 
 #bff-img {
@@ -50,8 +56,9 @@ h1, h2, h3, h4, p {
 
 .gift-img {
     margin: 20px auto;
-    width: 400px;
-    height: 400px;
+    width: 80%;
+    max-width: 500px;
+    height: 80dvh;
     border: 6px solid white;
     border-radius: 10px;
     background-image: url("images/gift-cover.jpg");
@@ -73,15 +80,3 @@ h1, h2, h3, h4, p {
 #gift-img-badass:hover {
     background-image: url("images/badass.gif");
 }
-
-
-/*
-Challenge:
-Create the "genius" and "badass" GIFt sections.
-
-Texts:
-If I had to describe you with ONE word 👇
-
-The only person as badass as you 💪
-
-*/

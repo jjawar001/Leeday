@@ -10,11 +10,6 @@ h1, h2, h3, h4, p {
     text-shadow: 0 0 1px black;
 }
 
-img {
-    height: 100%;
-    /* overflow: cover; */
-}
-
 #bff-img {
     width: 150px;
     border-radius: 50%;
@@ -56,14 +51,12 @@ img {
 
 .gift-img {
     margin: 20px auto;
-    width: 80%;
-    /* max-width: 500px; */
+    width: 400px;
     height: 400px;
     border: 6px solid white;
     border-radius: 10px;
     background-image: url("images/gift-cover.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #gift-img-happy:hover {
@@ -81,3 +74,5 @@ img {
 #gift-img-badass:hover {
     background-image: url("images/badass.gif");
 }
+
+*/
